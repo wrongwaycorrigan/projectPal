@@ -1,0 +1,29 @@
+ProjectPal is project deployment tool for animation and visual effects studios. A project consists of a folder structure and production software templates to ensure consistent organization.
+
+The directory structure is created based on the type of project. After the dir structure is created, certain directories are popluted with templates that correspond to specific types of software
+that will be used for the project. This is all done through the ini file. If you need to add a new set of templates, 
+add a folder named after the software with the templates, update the ini in the appropriate sections, and update the options in index.tpl to reflect the new type of software.
+
+Once a project is created, several shots can be created within a project. Shots will also have a specific directory structure that will be poplulated
+by templaetes based on the project type.
+
+General errors are reported to the end user (project exists, problem creating project, etc). More specific errors are written to the logs for the sys admin.
+The page should stay up despite all errors. 
+
+INSTALL:
+The application was built using Python 3.3 and uses the Bottle library (version ?). No web server was used in writing this application. If you are running
+projectpal within your network, you do not need an independent web server, the default bottle dev server will work just fine. I mean, hey, how many projects
+are you going to create in your studio in one day anyway? (Well, ok, if Pixar starts using this thing, give me a call.)
+
+To install and run, download the github repository and start the web sever by typing python prajectpal.py. You may need to install Bottle. It can be installed
+using the normal methods, or simply put bottle.py in the root directory.
+
+FILES:
+
+projectpal.py is the main application and web interface
+work.py is the guts of the app. This is where the magic happens (create dirs, add templates, etc)
+
+TODO:
+
+- add ability to switch machines (unc?)
+- add funcitonality to create shot dirs

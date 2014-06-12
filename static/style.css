@@ -1,0 +1,94 @@
+html {   
+    background:  url(/images/l280.jpg) no-repeat center center fixed
+    -webkit-background-size: cover
+    -moz-background-size: cover
+    -o-background-size: cover
+    background-size: cover   
+}
+
+body{
+	background-color: #64769E;
+	font-family: "Segoe UI","Helvetica Neue","HelveticaNeue",Helvetica,Arial,sans-serif;
+    font-size: 23px;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
+    text-rendering: optimizelegibility;
+}
+
+.h1{
+	font-family: "Segoe UI","Helvetica Neue","HelveticaNeue",Helvetica,Arial,sans-serif;
+    font-size: 23px;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
+    text-rendering: optimizelegibility;
+}
+
+li
+{
+    list-style-type: none;
+}
+
+.selectbox select {
+   font-family: "Segoe UI","Helvetica Neue","HelveticaNeue",Helvetica,Arial,sans-serif;
+   background: white;
+   width: 268px;
+   padding: 5px;
+   font-size: 16px;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   height: 34px;
+   -webkit-appearance: none;
+   }
+   
+#textbox{
+    background: none repeat scroll 0% 0% rgb(255, 255, 255);
+	font-family: "Segoe UI","Helvetica Neue","HelveticaNeue",Helvetica,Arial,sans-serif;
+    color: rgb(34, 34, 34);
+    width: 430px;
+    height: 28px;
+    padding: 4px 6px 5px;
+    margin: 0px;
+    outline: medium none;
+    border: 1px solid rgb(141, 141, 141);
+    font-size: 18px;
+    border-radius: 3px 0px 0px 3px;
+    box-shadow: 1px 1px 2px rgb(153, 153, 153) inset;
+}
+.button {
+	font-family: "Segoe UI","Helvetica Neue","HelveticaNeue",Helvetica,Arial,sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.25);
+    background-color: rgb(95, 180, 70);
+    background-image: linear-gradient(rgb(140, 220, 100), rgb(96, 176, 70));
+    background-repeat: repeat-x;
+    border-color: rgb(92, 169, 65);
+        border-top-color: rgb(92, 169, 65);
+        border-right-color-value: rgb(92, 169, 65);
+        border-bottom-color: rgb(92, 169, 65);
+        border-left-color-value: rgb(92, 169, 65);
+		width: 300px;
+padding: 9px;
+    padding-top: 9px;
+    padding-right-value: 9px;
+    padding-bottom: 9px;
+    padding-left-value: 9px;
+font-size: 20px;
+border-radius: 8px 8px 8px 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.projects {
+	background-color: #5a6a8e;
+	font-family: "Consolas", monospace;
+	font-size: 12.5px;
+	padding:10px;
+	position: fixed;
+    top: 20em;
+    right: 30em;
+}
